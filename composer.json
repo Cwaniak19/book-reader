@@ -1,0 +1,10 @@
+{
+  "name": "jkanclerz/book-reader",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+  }
+}
