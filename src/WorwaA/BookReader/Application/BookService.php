@@ -1,14 +1,9 @@
-<?php
-/**
- * This file is part of the "BookReader" project.
- * @author Jakub Kanclerz <kuba.kanclerz@creativestyle.pl>
- * Feel free to contact me
- */
-
-namespace Jkan\BookReader\Application;
 
 
-use Jkan\BookReader\Domain\Book\BookLibrary;
+namespace WorwaA\BookReader\Application;
+
+
+use WorwaA\BookReader\Domain\Book\BookLibrary;
 
 class BookService
 {

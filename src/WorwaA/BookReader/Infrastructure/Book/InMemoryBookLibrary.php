@@ -1,15 +1,10 @@
-<?php
-/**
- * This file is part of the "BookReader" project.
- * @author Jakub Kanclerz <kuba.kanclerz@creativestyle.pl>
- * Feel free to contact me
- */
 
-namespace Jkan\BookReader\Infrastructure\Book;
 
-use Jkan\BookReader\Domain\Book\Book;
-use Jkan\BookReader\Domain\Book\BookLibrary;
-use Jkan\BookReader\Domain\Book\Page;
+namespace WorwaA\BookReader\Infrastructure\Book;
+
+use WorwaA\BookReader\Domain\Book\Book;
+use WorwaA\BookReader\Domain\Book\BookLibrary;
+use WorwaA\BookReader\Domain\Book\Page;
 
 class InMemoryBookLibrary implements BookLibrary
 {
